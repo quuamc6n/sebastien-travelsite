@@ -1,0 +1,68 @@
+.nav__list-item-hawaii {
+  text-decoration: underline solid #db7a4e;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 8px;
+}
+
+.hero__hawaii {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../assets/images/hawaii.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 48px;
+}
+
+.hero__hawaii-block {
+  display: flex;
+  margin: 100px 0 0 150px;
+  font-size: 4rem;
+}
+
+.destination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.destination__hawaii {
+  border-radius: 5px;
+  border: 1px solid black 0.2;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  height: 350px;
+  width: 250px;
+  background-color: white;
+  color: black;
+  margin: 19.2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 16px 16px 64px 16px;
+}
+
+.destination__hawaii-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+  width: 100%;
+  background-color: #fefaf5;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.destination__hawaii-date {
+  border-bottom: solid black 3px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}

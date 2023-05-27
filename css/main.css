@@ -1,0 +1,131 @@
+.nav__list-item-home {
+  text-decoration: underline solid #db7a4e;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 8px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fefaf5;
+  text-align: left;
+  padding: 48px 32px 0 64px;
+}
+
+.hero__block {
+  text-align: left;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  flex: 1;
+}
+
+.hero__block h2 {
+  font-size: 2.5rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.hero__block-p-slogan {
+  color: #335576;
+  padding: 0 0 30px 0;
+}
+
+.hero__image {
+  height: 95%;
+  width: 45%;
+  padding: 64px;
+}
+
+.getStartedButton {
+  background-color: #db7a4e;
+  border-radius: 80px;
+  border-style: none;
+  height: 35.2px;
+  width: 160px;
+  color: white;
+}
+
+.recommend {
+  color: #335576;
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 48px 48px 16px 48px;
+  margin-bottom: 15px;
+}
+
+.Recommendations {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 225px;
+  margin-bottom: 50px;
+}
+
+.Recommendations__card-hawaii {
+  color: #335576;
+  border-radius: 5px;
+  border: 1px solid black 0.2;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  height: 400px;
+  width: 250px;
+  background-image: url("../assets/images/hawaii.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 16px;
+}
+
+.Recommendations__card-iceland {
+  color: #335576;
+  border-radius: 5px;
+  border: 1px solid black 0.2;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  height: 400px;
+  width: 250px;
+  background-image: url("../assets/images/iceland.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 16px;
+}
+
+.Recommendations__card-greece {
+  color: #335576;
+  border-radius: 5px;
+  border: 1px solid black 0.2;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  height: 400px;
+  width: 250px;
+  background-image: url("../assets/images/greece.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 16px;
+}
+
+.recommendations__card-animate{
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.recommendations__card-animate:hover{
+  transform: scale(1.1);
+}
