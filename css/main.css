@@ -40,6 +40,13 @@
   height: 35.2px;
   width: 160px;
   color: white;
+  transition: transform;
+}
+
+.getStartedButton:hover {
+  cursor: pointer;
+  transform: scale(1.1) translate(10px, 0);
+  background-color: lightcoral;
 }
 
 .recommend {
@@ -115,11 +122,11 @@
   padding: 16px;
 }
 
-.recommendations__card-animate{
+.recommendations__card-animate {
   text-decoration: none;
   transition: transform 0.2s;
 }
 
-.recommendations__card-animate:hover{
+.recommendations__card-animate:hover {
   transform: scale(1.1);
 }
