@@ -67,6 +67,7 @@
   background-color: #fefaf5;
   font-size: 1rem;
   font-weight: 100;
+  list-style-type: none;
 }
 
 .destination__date {
@@ -75,4 +76,5 @@
   text-align: center;
   margin-bottom: 10px;
   font-size: 1.2rem;
+  list-style-type: none;
 }
